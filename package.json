@@ -5,7 +5,8 @@
   "main": "tailwind.config.js",
   "scripts": {
     "tailwindcss-help": "tailwindcss --help",
-    "tailwindcss": "tailwindcss --input src/tailwind.css --output src/style.css"
+    "tailwindcss": "tailwindcss --input src/tailwind.css --output src/style.css",
+    "tailwindcss:prod": "tailwindcss --input src/tailwind.css --output src/style.css --minify --config tailwind-prod.config.js"
   },
   "dependencies": {},
   "keywords": [],
